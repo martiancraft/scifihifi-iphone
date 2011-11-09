@@ -93,8 +93,8 @@ static UIColor *m_normalTextColor;
 		
 	CGRect imageViewFrame = CGRectZero;
 	
-	if (self.image) {
-		imageViewFrame = CGRectMake(indentWidth, verticalMidpoint - ceil(self.image.size.height / 2), self.image.size.width, self.image.size.height);
+	if (self.imageView.image) {
+		imageViewFrame = CGRectMake(indentWidth, verticalMidpoint - ceil(self.imageView.image.size.height / 2), self.imageView.image.size.width, self.imageView.image.size.height);
 		self.imageView.frame = imageViewFrame;
 	}
 	

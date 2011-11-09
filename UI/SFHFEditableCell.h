@@ -35,7 +35,7 @@
 @property (nonatomic, retain) UITextField *textField;
 @property (nonatomic, retain) UILabel *label;
 
-- (id) initWithFrame: (CGRect)frame reuseIdentifier: (NSString *) reuseIdentifier delegate: (id) delegate;
+- (id) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier delegate: (id) delegate;
 - (void) setLabelText: (NSString *) labelText andPlaceholderText: (NSString *) placeholderText;
 
 @end
